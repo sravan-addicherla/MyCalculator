@@ -36,9 +36,7 @@ function Calsi() {
         setData("");
     }
 
-    const signChange=()=>{
-       
-    }
+    
 
     const result=()=>{
         setInput(data);
@@ -58,7 +56,6 @@ function Calsi() {
             }
             <button className="operators" id="clearClass" onClick={clearIt}>AC</button>
             <button className="operators" id="delId" onClick={deleteIt}>C</button>
-            <button name="+/-" className="operators" onClick={signChange}>+/-</button>
             <button name="/" className="operators" onClick={handleChange}>/</button>
             <button name="7"onClick={handleChange}>7</button>
             <button name="8" onClick={handleChange}>8</button>
